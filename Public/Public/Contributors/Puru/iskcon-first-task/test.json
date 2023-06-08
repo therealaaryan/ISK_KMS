@@ -1,0 +1,4039 @@
+{
+	"header": {
+		"l": [
+			{
+				"txt": "Jai Sri Radhe .. ! !<br />For The Pleasure Of S S Radha Vrindavanchandra,SS JBS, Gaur Nitai and Srila Prabhupad"
+			},
+			{
+				"txt": "Sri RamNavami Maha Mohostav Ki Jay…!!"
+			},
+			{
+				"txt": "Sunday, April 10, 2022"
+			}
+		]
+	},
+	"table": {
+		"l": [
+			{
+				"meal_type": 1,
+				"meal_name": "BREAKFAST",
+				"l": [
+					{
+						"tbl_type": 1,
+						"l": [
+							{
+								"name": "MENU",
+								"header": {
+									"l": [
+										{
+											"txt": "RECIPE NAME"
+										},
+										{
+											"txt": "QUANITY"
+										},
+										{
+											"txt": "UNITS"
+										},
+										{
+											"txt": "INSTRUCTIONS"
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Varai Upma"
+												},
+												{
+													"txt": "28"
+												},
+												{
+													"txt": "litres"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Suimple Alu Sabji"
+												},
+												{
+													"txt": "20"
+												},
+												{
+													"txt": "litres"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"tbl_type": 2,
+						"l": [
+							{
+								"name": "",
+								"header": {
+									"l": [
+										{
+											"txt": "PROGRAM NAME"
+										},
+										{
+											"txt": "HEAD COUNT"
+										},
+										{
+											"txt": "VARAI UPMA"
+										},
+										{
+											"txt": "SIMPLE ALU SABJI"
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "COMMON SERVING"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "TOTAL"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "ADJUSTED ESTIMATE"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "28"
+												},
+												{
+													"txt": "20"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "REQUIRED SPOON"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "180 ML"
+												},
+												{
+													"txt": "100 ML"
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"tbl_type": 3,
+						"l": [
+							{
+								"recipe_name": "VARAI UPMA",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "28"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Varai"
+												},
+												{
+													"txt": "5.6"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Groundnut Oil, For roasting Varai"
+												},
+												{
+													"txt": "0.28"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Groundnut Oil, for Chaunk"
+												},
+												{
+													"txt": "1.4"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "70"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ginger Paste"
+												},
+												{
+													"txt": "196"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Green Chillies, slit in 2"
+												},
+												{
+													"txt": "196"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Curry Leaves"
+												},
+												{
+													"txt": "0.56"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Carrot, 1 cm cubes"
+												},
+												{
+													"txt": "2.8"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling Water"
+												},
+												{
+													"txt": "21"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "336"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.336"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Kokam/ lemon Juice"
+												},
+												{
+													"txt": "140"
+												},
+												{
+													"txt": "ml"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "1.12"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"recipe_name": "SIMPLE ALU SABJI",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "28"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Alu, peel, cube & boil"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "240"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ghee"
+												},
+												{
+													"txt": "1"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Byadgi Mirchi,Hot, broken & soaked"
+												},
+												{
+													"txt": "50"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling water (approx)"
+												},
+												{
+													"txt": "7"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.24"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Lemon juice"
+												},
+												{
+													"txt": "0.16"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"meal_type": 2,
+				"meal_name": "LUNCH",
+				"l": [
+					{
+						"tbl_type": 1,
+						"l": [
+							{
+								"name": "MENU",
+								"header": {
+									"l": [
+										{
+											"txt": "RECIPE NAME"
+										},
+										{
+											"txt": "QUANITY"
+										},
+										{
+											"txt": "UNITS"
+										},
+										{
+											"txt": "INSTRUCTIONS"
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera Rice"
+												},
+												{
+													"txt": "1200"
+												},
+												{
+													"txt": "kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "TCD"
+												},
+												{
+													"txt": "730"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": "Dal: 0.4 gms"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Health Dal"
+												},
+												{
+													"txt": "3"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "SPMV Wet"
+												},
+												{
+													"txt": "1275"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Flower_dry"
+												},
+												{
+													"txt": "23"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Doodhi_H"
+												},
+												{
+													"txt": "4"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": "5 Kgs"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Bhakari"
+												},
+												{
+													"txt": "4"
+												},
+												{
+													"txt": "kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Puri"
+												},
+												{
+													"txt": "12,000"
+												},
+												{
+													"txt": "Pis"
+												},
+												{
+													"txt": "Atta: 160 Kgs"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Butter Milk"
+												},
+												{
+													"txt": "800"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Shakkar Pongal"
+												},
+												{
+													"txt": "640"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salad"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": "K = G = 5Kgs"
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"tbl_type": 2,
+						"l": [
+							{
+								"name": "",
+								"header": {
+									"l": [
+										{
+											"txt": "PROGRAM NAME"
+										},
+										{
+											"txt": "HEAD COUNT"
+										},
+										{
+											"txt": "JR RICE"
+										},
+										{
+											"txt": "TCD"
+										},
+										{
+											"txt": "SPMV"
+										},
+										{
+											"txt": "ALU FLW DRY"
+										},
+										{
+											"txt": "PURI"
+										},
+										{
+											"txt": "BUTTER MILK S"
+										},
+										{
+											"txt": "SHANKAR PNGL"
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "150"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "44"
+												},
+												{
+													"txt": "29"
+												},
+												{
+													"txt": "36"
+												},
+												{
+													"txt": "17"
+												},
+												{
+													"txt": "330"
+												},
+												{
+													"txt": "45"
+												},
+												{
+													"txt": "38"
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"tbl_type": 3,
+						"l": [
+							{
+								"recipe_name": "JEERA RICE",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "240 * 6"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Varai"
+												},
+												{
+													"txt": "5.6"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Groundnut Oil, For roasting Varai"
+												},
+												{
+													"txt": "0.28"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Groundnut Oil, for Chaunk"
+												},
+												{
+													"txt": "1.4"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "70"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ginger Paste"
+												},
+												{
+													"txt": "196"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Green Chillies, slit in 2"
+												},
+												{
+													"txt": "196"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Curry Leaves"
+												},
+												{
+													"txt": "0.56"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Carrot, 1 cm cubes"
+												},
+												{
+													"txt": "2.8"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling Water"
+												},
+												{
+													"txt": "21"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "336"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"recipe_name": "TCD",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "365*2"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Alu, peel, cube & boil"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "240"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ghee"
+												},
+												{
+													"txt": "1"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Byadgi Mirchi,Hot, broken & soaked"
+												},
+												{
+													"txt": "50"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling water (approx)"
+												},
+												{
+													"txt": "7"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.24"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Lemon juice"
+												},
+												{
+													"txt": "0.16"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"recipe_name": "SPMV Wet",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "360*2"
+										},
+										{
+											"txt": "UNITS"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Alu, peel, cube & boil"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "240"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ghee"
+												},
+												{
+													"txt": "1"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Byadgi Mirchi,Hot, broken & soaked"
+												},
+												{
+													"txt": "50"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling water (approx)"
+												},
+												{
+													"txt": "7"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.24"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Lemon juice"
+												},
+												{
+													"txt": "0.16"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"recipe_name": "SHANKAR PONGAL",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "365*2"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Alu, peel, cube & boil"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "240"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ghee"
+												},
+												{
+													"txt": "1"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Byadgi Mirchi,Hot, broken & soaked"
+												},
+												{
+													"txt": "50"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling water (approx)"
+												},
+												{
+													"txt": "7"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.24"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Lemon juice"
+												},
+												{
+													"txt": "0.16"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "0.5"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"recipe_name": "CHHAACHH",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "200*4"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Alu, peel, cube & boil"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "240"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ghee"
+												},
+												{
+													"txt": "1"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"recipe_name": "PALAK BHOPLA SURAN DRY",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "240"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Alu, peel, cube & boil"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "240"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ghee"
+												},
+												{
+													"txt": "1"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"recipe_name": "PURI FHC",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "200*4"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Alu, peel, cube & boil"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "240"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"meal_type": 3,
+				"meal_name": "DINNER",
+				"l": [
+					{
+						"tbl_type": 1,
+						"l": [
+							{
+								"name": "MENU",
+								"header": {
+									"l": [
+										{
+											"txt": "RECIPE NAME"
+										},
+										{
+											"txt": "QUANITY"
+										},
+										{
+											"txt": "UNITS"
+										},
+										{
+											"txt": "INSTRUCTIONS"
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "CP Rice"
+												},
+												{
+													"txt": "28"
+												},
+												{
+													"txt": "litres"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Moong Dal Fry"
+												},
+												{
+													"txt": "20"
+												},
+												{
+													"txt": "litres"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Shankar Pongal"
+												},
+												{
+													"txt": "20"
+												},
+												{
+													"txt": "litres"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Millet Khicadi"
+												},
+												{
+													"txt": "20"
+												},
+												{
+													"txt": "litres"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"tbl_type": 2,
+						"l": [
+							{
+								"name": "",
+								"header": {
+									"l": [
+										{
+											"txt": "PROGRAM NAME"
+										},
+										{
+											"txt": "HEAD COUNT"
+										},
+										{
+											"txt": "CPR"
+										},
+										{
+											"txt": "DAL FRY"
+										},
+										{
+											"txt": "SHANKAR PNGL"
+										},
+										{
+											"txt": "MIX VEG"
+										},
+										{
+											"txt": "PURI"
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "BRAMHACHARIS"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "MAHAVIRYA PR"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "CV"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "DINANATHA NARAYAN PR"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "CS+KIT+CV"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "TOTAL"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "ADJUSTED ESTIMATE"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												},
+												{
+													"txt": "60"
+												},
+												{
+													"txt": "27"
+												},
+												{
+													"txt": "18"
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "REQUIRED SPOON"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "-"
+												},
+												{
+													"txt": "-"
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"tbl_type": 3,
+						"l": [
+							{
+								"recipe_name": "MOONG DAL FRY",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "28"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Varai"
+												},
+												{
+													"txt": "5.6"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Groundnut Oil, For roasting Varai"
+												},
+												{
+													"txt": "0.28"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Groundnut Oil, for Chaunk"
+												},
+												{
+													"txt": "1.4"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "70"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ginger Paste"
+												},
+												{
+													"txt": "196"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Green Chillies, slit in 2"
+												},
+												{
+													"txt": "196"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Curry Leaves"
+												},
+												{
+													"txt": "0.56"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Carrot, 1 cm cubes"
+												},
+												{
+													"txt": "2.8"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling Water"
+												},
+												{
+													"txt": "21"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "336"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.336"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Kokam/ lemon Juice"
+												},
+												{
+													"txt": "140"
+												},
+												{
+													"txt": "ml"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "1.12"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ginger Paste"
+												},
+												{
+													"txt": "196"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Green Chillies, slit in 2"
+												},
+												{
+													"txt": "196"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Curry Leaves"
+												},
+												{
+													"txt": "0.56"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Carrot, 1 cm cubes"
+												},
+												{
+													"txt": "2.8"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling Water"
+												},
+												{
+													"txt": "21"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "336"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.336"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Kokam/ lemon Juice"
+												},
+												{
+													"txt": "140"
+												},
+												{
+													"txt": "ml"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Dhaniya Patta, chopped"
+												},
+												{
+													"txt": "1.12"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"recipe_name": "NON SPICY DWADASHI MILLET KHICADI",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "28"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Alu, peel, cube & boil"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "240"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ghee"
+												},
+												{
+													"txt": "1"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Byadgi Mirchi,Hot, broken & soaked"
+												},
+												{
+													"txt": "50"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling water (approx)"
+												},
+												{
+													"txt": "7"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.24"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"recipe_name": "GREEN PEAS RICE",
+								"header": {
+									"l": [
+										{
+											"txt": "YIELD"
+										},
+										{
+											"txt": "28"
+										},
+										{
+											"txt": "LITRES"
+										},
+										{
+											"txt": ""
+										}
+									]
+								},
+								"l": [
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Alu, peel, cube & boil"
+												},
+												{
+													"txt": "12"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Salt"
+												},
+												{
+													"txt": "240"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ghee"
+												},
+												{
+													"txt": "1"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Byadgi Mirchi,Hot, broken & soaked"
+												},
+												{
+													"txt": "50"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling water (approx)"
+												},
+												{
+													"txt": "7"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.24"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Ghee"
+												},
+												{
+													"txt": "1"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Jeera"
+												},
+												{
+													"txt": "30"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Byadgi Mirchi,Hot, broken & soaked"
+												},
+												{
+													"txt": "50"
+												},
+												{
+													"txt": "gm"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Boiling water (approx)"
+												},
+												{
+													"txt": "7"
+												},
+												{
+													"txt": "L"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									},
+									{
+										"row": {
+											"l": [
+												{
+													"txt": "Sugar"
+												},
+												{
+													"txt": "0.24"
+												},
+												{
+													"txt": "Kg"
+												},
+												{
+													"txt": ""
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

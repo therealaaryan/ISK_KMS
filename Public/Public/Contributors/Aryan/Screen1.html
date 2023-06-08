@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple KMS: (Samples)</title>
+
+
+</head>
+
+<body style="padding:0; margin:0; overflow: hidden; ">
+    <!--items will be fetched here-->
+    <!--Web-->
+    <!-----------OR-------------->
+    <!--Mobile-->
+
+</body>
+
+
+
+
+<!--javascript-->
+<script>
+
+    let onLoad_core_1mn = () => {
+
+        //test..
+        let mTest = () => {
+
+            //set btns..
+            let mSet_btns = (mE) => {
+                let mBtnsDiv = document.createElement("div");
+                mE.appendChild(mBtnsDiv);
+
+                //set..
+                let mSet_Btn = (txt = "") => {
+                    let mBtn = document.createElement("button");
+                    mBtn.style.margin = "0.5vh";
+                    mBtn.innerHTML = txt;
+                    mBtnsDiv.appendChild(mBtn);
+                    return mBtn;
+                };
+
+                //set..
+                mSet_Btn("Sample Table 1").onclick = () => {
+                    mSamplesDiv.innerHTML = ""; //reset..
+                    mSample_table1(mSamplesDiv);
+                };
+
+                //set..
+                mSet_Btn("Sample Excel Sheel Generation 1").onclick = () => {
+                    mSamplesDiv.innerHTML = ""; //reset..
+                    mSample_ExcelSheelGen(mSamplesDiv);
+                };
+
+                //set..
+                mSet_Btn("Sample Svg Loader 1").onclick = () => {
+                    mSamplesDiv.innerHTML = ""; //reset..
+                    mSample_SvgLoader(mSamplesDiv);
+                };
+
+
+                mSet_Btn("Sample Grid Cards 1").onclick = () => {
+                    mSamplesDiv.innerHTML = ""; //reset..
+                    mSample_gridCards1(mSamplesDiv);
+                };
+
+                mSet_Btn("DOM refrences").onclick = () => {
+                    mSamplesDiv.innerHTML = ""; //reset..
+                    mSet_DOM_ref(mSamplesDiv);
+                };
+
+
+
+
+            };
+            mSet_btns(document.body);
+
+
+
+
+            //----------Samples Starts Here----------//
+            let mSamplesDiv = document.createElement("div");
+            document.body.appendChild(mSamplesDiv);
+            //----Sample Table 1----//
+            let mSample_table1 = (mRootE = document.body) => {
+                //mContent.....
+                var mContent = document.createElement("div");
+                mContent.style = `width: 95vw; height: 100%; 
+                          padding: 0 1.5vw;`;
+                mRootE.appendChild(mContent);
+
+                //set..
+                function mSet_l() {
+
+                    function mSet_i1(mE) {
+                        //rndr.. (table)
+                        let mRndr = {
+                            "cW": "6vw", //column width 
+                            "cP": "0 0.5vw", //column padding 
+                            "utils": {
+                                "txt1": (txt, i1) => {
+                                    var mTxt = document.createElement("div");
+                                    //mTxt.style.border = "1px solid red";
+                                    mTxt.style.fontSize = "1.5vh";
+                                    mTxt.style.width = mRndr["l"][i1]['1'] != undefined ? mRndr["l"][i1]['1'] : mRndr["cW"];
+                                    mTxt.style.padding = mRndr["cP"];
+                                    mTxt.style.color = "rgba(34,34,34, 1)";
+                                    mTxt.innerHTML = txt;
+                                    return mTxt;
+                                },
+                            },
+                            "l": [
+                                {
+                                    "0": "TRANSACTION DATE",
+                                    "1": "10vw",
+                                    "key": "TRANSACTION_DATE",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "REFERENCE",
+                                    "1": "8vw",
+                                    "key": "REFERENCE",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "TYPE",
+                                    "1": "8vw",
+                                    "key": "TYPE",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "REQUESTING COST CENTRE",
+                                    "1": "12vw",
+                                    "key": "REQUESTING_COST_CENTRE",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+
+                                {
+                                    "0": "REQUESTED FROM",
+                                    "1": "8vw",
+                                    "key": "REQUESTED_FROM",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+
+                                {
+                                    "0": "TRANSACTION TYPE",
+                                    "1": "10vw",
+                                    "key": "TRANSACTION_TYPE",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "QUANTITY",
+                                    "1": "8vw",
+                                    "key": "QUANTITY",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "PRICE UNIT",
+                                    "key": "PRICE_UNIT",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "TOTAL PRICE",
+                                    "key": "TOTAL_PRICE",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "STOCK BALANCE",
+                                    "1": "10vw",
+                                    "key": "STOCK_BALANCE",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "SETTLEMENT",
+                                    "key": "SETTLEMENT",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "INSTRUMENT",
+                                    "1": "11vw",
+                                    "key": "INSTRUMENT",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+                                {
+                                    "0": "INSTRUMENT NO",
+                                    "1": "10vw",
+                                    "key": "INSTRUMENT_NO",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                        //set val..
+                                        mRndr["l"][i1]["val"] = data;
+                                    }
+                                },
+
+                                {
+                                    "0": "",
+                                    "1": "10vw",
+                                    "key": "actions",
+                                    "col": (data, mE, i1) => {
+                                        mE.appendChild(mRndr["utils"]["txt1"](data, i1));
+                                    }
+                                },
+
+
+                            ]
+                        };
+
+                        //table..
+                        function mSet_table1(mE) {
+                            var mTbl = document.createElement("div");
+                            mTbl.style.width = "100%";
+                            mE.appendChild(mTbl);
+
+
+                            //mTbl_div..
+                            var mTbl_div = document.createElement("div");
+                            //mTbl_div.style.backgroundColor = "red";
+                            mTbl_div.style.overflowY = "auto";
+                            mTbl_div.style.overflowX = "auto";
+                            //mTbl_div.style.width = "100%";
+                            mTbl_div.style.height = "85vh";  //90vh
+                            mTbl.appendChild(mTbl_div);
+
+
+                            console.log(core_1mn);
+
+
+                            //head..
+                            function mHead1(mE, mhead_ARR = [], w) {
+                                var mHead = document.createElement("div");
+                                mHead.style.backgroundColor = core_1mn["clr"]["c2"];
+                                mHead.style.width = "100vw";
+                                mHead.style.height = "3.5vh";
+                                mHead.style.display = "flex";
+                                mHead.style.alignItems = "center";
+                                //new..
+                                mHead.style.position = "sticky";
+                                mHead.style.top = "0";
+                                mE.appendChild(mHead);
+
+
+                                //txt 1
+                                function mSet_txt1(mCurr_I1) {
+                                    var mTxt = document.createElement("div");
+                                    //mTxt.style.border = "1px solid red";
+                                    mTxt.style.fontSize = "1.3vh";
+                                    mTxt.style.color = core_1mn["clr"]["c1"];
+                                    mTxt.innerHTML = mCurr_I1["0"];
+                                    mTxt.style.width = mCurr_I1["1"] != undefined ? mCurr_I1["1"] : w;
+                                    mTxt.style.padding = mRndr["cP"];
+                                    mHead.appendChild(mTxt);
+                                }
+
+                                //data..
+                                //gen..
+                                for (let i1 = 0; i1 < mhead_ARR.length; i1++) {
+                                    const mCurr_I1 = mhead_ARR[i1];
+                                    mSet_txt1(mCurr_I1);
+                                }
+
+
+                            }
+                            mHead1(mTbl_div, mRndr["l"], mRndr["cW"]);
+
+
+
+                            //btns..
+                            function mSet_btns_1(mE) {
+                                var mBtnList = document.createElement("div");
+                                //mBtnList.style.border = "1px solid red";
+                                mBtnList.style.width = mRndr["l"][mRndr["l"].length - 1]["1"];
+                                mBtnList.style.padding = mRndr["cP"];
+                                mBtnList.style.display = "flex";
+                                mBtnList.style.alignItems = "center";
+                                mE.appendChild(mBtnList);
+
+                                function mSet_btn1() {
+                                    //Btn.....  
+                                    /*var mBtnHolder = document.createElement("div"); 
+                                    mBtnList.appendChild(mBtnHolder);
+                                    var mBtn = core_1mn['btn']['1'].set({ 
+                                             "e1": mBtnHolder,
+                                             "w": "3vw",
+                                             "posH": 1,
+                                             "h": "3.2vh",
+                                             "txt": {
+                                               "0": "",
+                                               "1": "1.5vh"
+                                              },
+                                              "ico": {"0": "three_dots_0.svg", "1": "2.1vh", "2": "2.1vh", 
+                                              //"3": "rgba(255,255,255, 1.0)"
+                                              },
+                                             "cb": {
+                                                 "onClick": function(data){
+                                                    
+                                              },
+                                             },
+                                             "typ": 1,
+                                             "vari": 2
+                                    });*/
+
+                                }
+                                mSet_btn1();
+
+
+
+                            }
+
+
+                            //row..
+                            function mRow1(mRow, mData) {
+                                for (let i1 = 0; i1 < mRndr["l"].length; i1++) {
+                                    const mCurr_I1 = mRndr["l"][i1];
+                                    //find and set..  
+                                    if (mData.hasOwnProperty(mCurr_I1["key"]) == true) {
+                                        mCurr_I1.col(mData[mCurr_I1["key"]], mRow, i1, mData);
+                                    }
+                                }
+                            }
+                            function mAddRow1(mCurr_I1) {
+                                var mRow = document.createElement("div");
+                                mRow.id = core_1mn['mUniqueId'].mGenerate(11);
+                                mRow.style.display = "flex";
+                                mRow.style.alignItems = "start";
+                                mRow.style.margin = "1.5vh 0";
+                                mRow.style.width = "100vw";
+                                mTbl_div.appendChild(mRow);
+                                //add row..
+                                mRow1(mRow, mCurr_I1);
+                                mSet_btns_1(mRow);
+                            }
+
+
+
+                            //get row data and set..
+                            function mGetRowDataAndSet() {
+                                let mLocalPayload = [
+                                    {
+                                        "TRANSACTION_DATE": "05/03/2023",
+                                        "REFERENCE": "RQ56622183",
+                                        "TYPE": "REQUISATION",
+                                        "REQUESTING_COST_CENTRE": "CENTRAL KITCHEN",
+                                        "REQUESTED_FROM": "CSR",
+                                        "TRANSACTION_TYPE": "IDT",
+                                        "QUANTITY": "50 kgs",
+                                        "PRICE_UNIT": "102/ kg",
+                                        "TOTAL_PRICE": "5100.00",
+                                        "STOCK_BALANCE": "78 kgs",
+                                        "SETTLEMENT": "RAISED",
+                                        "INSTRUMENT": "REQUISATION ORDER",
+                                        "INSTRUMENT_NO": "255612",
+                                        "tag1": "my_tag_1"
+                                    },
+                                    {
+                                        "TRANSACTION_DATE": "05/03/2023",
+                                        "REFERENCE": "RQ56622183",
+                                        "TYPE": "REQUISATION",
+                                        "REQUESTING_COST_CENTRE": "CENTRAL KITCHEN",
+                                        "REQUESTED_FROM": "CSR",
+                                        "TRANSACTION_TYPE": "IDT",
+                                        "QUANTITY": "50 kgs",
+                                        "PRICE_UNIT": "102/ kg",
+                                        "TOTAL_PRICE": "5100.00",
+                                        "STOCK_BALANCE": "78 kgs",
+                                        "SETTLEMENT": "RAISED",
+                                        "INSTRUMENT": "REQUISATION ORDER",
+                                        "INSTRUMENT_NO": "255612",
+                                        "tag1": "my_tag_1"
+                                    },
+                                    {
+                                        "TRANSACTION_DATE": "05/03/2023",
+                                        "REFERENCE": "RQ56622183",
+                                        "TYPE": "REQUISATION",
+                                        "REQUESTING_COST_CENTRE": "CENTRAL KITCHEN",
+                                        "REQUESTED_FROM": "CSR",
+                                        "TRANSACTION_TYPE": "IDT",
+                                        "QUANTITY": "50 kgs",
+                                        "PRICE_UNIT": "102/ kg",
+                                        "TOTAL_PRICE": "5100.00",
+                                        "STOCK_BALANCE": "78 kgs",
+                                        "SETTLEMENT": "RAISED",
+                                        "INSTRUMENT": "REQUISATION ORDER",
+                                        "INSTRUMENT_NO": "255612",
+                                        "tag1": "my_tag_1"
+                                    },
+                                    {
+                                        "TRANSACTION_DATE": "05/03/2023",
+                                        "REFERENCE": "RQ56622183",
+                                        "TYPE": "REQUISATION",
+                                        "REQUESTING_COST_CENTRE": "CENTRAL KITCHEN",
+                                        "REQUESTED_FROM": "CSR",
+                                        "TRANSACTION_TYPE": "IDT",
+                                        "QUANTITY": "50 kgs",
+                                        "PRICE_UNIT": "102/ kg",
+                                        "TOTAL_PRICE": "5100.00",
+                                        "STOCK_BALANCE": "78 kgs",
+                                        "SETTLEMENT": "RAISED",
+                                        "INSTRUMENT": "REQUISATION ORDER",
+                                        "INSTRUMENT_NO": "255612",
+                                        "tag1": "my_tag_1"
+                                    },
+                                    {
+                                        "TRANSACTION_DATE": "05/03/2023",
+                                        "REFERENCE": "RQ56622183",
+                                        "TYPE": "REQUISATION",
+                                        "REQUESTING_COST_CENTRE": "CENTRAL KITCHEN",
+                                        "REQUESTED_FROM": "CSR",
+                                        "TRANSACTION_TYPE": "IDT",
+                                        "QUANTITY": "50 kgs",
+                                        "PRICE_UNIT": "102/ kg",
+                                        "TOTAL_PRICE": "5100.00",
+                                        "STOCK_BALANCE": "78 kgs",
+                                        "SETTLEMENT": "RAISED",
+                                        "INSTRUMENT": "REQUISATION ORDER",
+                                        "INSTRUMENT_NO": "255612",
+                                        "tag1": "my_tag_1"
+                                    },
+                                    {
+                                        "TRANSACTION_DATE": "05/03/2023",
+                                        "REFERENCE": "RQ56622183",
+                                        "TYPE": "REQUISATION",
+                                        "REQUESTING_COST_CENTRE": "CENTRAL KITCHEN",
+                                        "REQUESTED_FROM": "CSR",
+                                        "TRANSACTION_TYPE": "IDT",
+                                        "QUANTITY": "50 kgs",
+                                        "PRICE_UNIT": "102/ kg",
+                                        "TOTAL_PRICE": "5100.00",
+                                        "STOCK_BALANCE": "78 kgs",
+                                        "SETTLEMENT": "RAISED",
+                                        "INSTRUMENT": "REQUISATION ORDER",
+                                        "INSTRUMENT_NO": "255612",
+                                        "tag1": "my_tag_1"
+                                    },
+
+                                ];
+
+                                //set..
+                                let data = mLocalPayload;
+                                //gen..
+                                for (let i1 = 0; i1 < data.length; i1++) {
+                                    const mCurr_I1 = data[i1];
+                                    mAddRow1(mCurr_I1);
+                                }
+
+                            }
+                            mGetRowDataAndSet();
+
+
+
+                        }
+                        mSet_table1(mE);
+
+
+
+                    }
+                    mSet_i1(mContent);
+
+
+
+
+                }
+                mSet_l();
+
+
+            }
+            //mSample_table1(mSamplesDiv);
+
+
+            //--Sample Excel Sheel Generation--//
+            let mSample_ExcelSheelGen = (mRootE = document.body) => {
+                //mRndr..
+                //rndr.. (Table)
+                let mRndr = {
+                    "l": [
+                        {
+                            "0": "Recipe Name",
+                            "1": "9vw",
+                            "key": "recipe_name",
+                        },
+                        {
+                            "0": "Recipe Type",
+                            "1": "7vw",
+                            "key": "recipe_type",
+                        },
+                        {
+                            "0": "Min Yield",
+                            "1": "6vw",
+                            "key": "min_yield",
+                        },
+                        {
+                            "0": "Max Yield",
+                            "1": "6vw",
+                            "key": "max_yield",
+                        },
+                        {
+                            "0": "Price/Unit",
+                            "1": "6vw",
+                            "key": "kri", //price_unit 
+                        },
+                        {
+                            "0": "Serving",
+                            "1": "12vw",
+                            "key": "serving_quantity",
+                        },
+                        {
+                            "0": "Created By",
+                            "1": "6vw",
+                            "key": "created_by",
+                        },
+                        {
+                            "0": "Created On",
+                            "1": "15vw",
+                            "key": "created_on",
+                        },
+                        {
+                            "0": "Status",
+                            "1": "6vw",
+                            "key": "status",
+                        },
+
+                        {
+                            "0": "",
+                            "1": "10vw",
+                            "key": "actions",
+                        },
+
+                    ]
+                };
+
+                //mPagi_dta.data.l
+                let mPagi_dta = {
+                    "data": {
+                        "l": [
+
+                            [
+                                {
+                                    "kom_recipes": {
+                                        "id": "927fb63c-0146-11ee-8307-a1dbbd3149dd",
+                                        "recipe_name": "my rec 1",
+                                        "details_or_desc": "",
+                                        "status": "Active",
+                                        "meal_type": [
+                                            2,
+                                            1
+                                        ],
+                                        "consumer_type": [
+                                            1,
+                                            2
+                                        ],
+                                        "recipe_type": "Ekadashi, New",
+                                        "set_recipe_yield_val": 1,
+                                        "set_recipe_yield_unit": 3,
+                                        "min_yield": 78,
+                                        "max_yield": 89,
+                                        "created_by": "Admin",
+                                        "serving_unit": 1,
+                                        "serving_sel": 2,
+                                        "serving_quantity": 90,
+                                        "recipe_category": 1,
+                                        "created_on": "2023-06-02T18:38:31.223686+05:30",
+                                        "kri": "56Rs"
+                                    }
+                                },
+                                {
+                                    "kom_recipes": {
+                                        "id": "343a9bfa-0146-11ee-8307-a1dbbd3149dd",
+                                        "recipe_name": "Mix Vegetable in CG Gravy",
+                                        "details_or_desc": "",
+                                        "status": 1,
+                                        "meal_type": [
+                                            1
+                                        ],
+                                        "consumer_type": [
+                                            2
+                                        ],
+                                        "recipe_type": [
+                                            3
+                                        ],
+                                        "set_recipe_yield_val": 1,
+                                        "set_recipe_yield_unit": 2,
+                                        "min_yield": 67,
+                                        "max_yield": 80,
+                                        "created_by": "Admin",
+                                        "serving_unit": 2,
+                                        "serving_sel": 1,
+                                        "serving_quantity": 90,
+                                        "recipe_category": 1,
+                                        "created_on": "2023-06-02T18:35:53.064961+05:30",
+                                        "kri": [
+                                            {
+                                                "csr_store_id": "1eefc54a-0146-11ee-8307-a1dbbd3149dd",
+                                                "iq": 1,
+                                                "sp": 0,
+                                                "su": 3
+                                            },
+                                            {
+                                                "csr_store_id": "1ef10bd0-0146-11ee-8307-a1dbbd3149dd",
+                                                "iq": 4,
+                                                "sp": 0,
+                                                "su": 3
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+
+                        ]
+                    }
+                };
+
+
+                //set vars..
+                //let mTotalCellRows = 0; //0
+                //let mMergeCell = [/*data will be fetched here*/];
+                let mStyleCell = [/*data will be fetched here*/];
+                //headers..
+                let mIsHead1_SET = false;
+                let mFmt1 = (a) => {
+                    let mNew = [];
+                    //gen..
+                    for (let i = 0; i < a.length; i++) {
+                        let e = a[i];
+                        let a1 = e;
+                        for (let i1 = 0; i1 < a1.length; i1++) {
+                            const e1 = a1[i1]["kom_recipes"];
+                            //row..
+                            function mGetRow(mData) {
+                                let mNew = []; //{}
+                                //set vars..
+                                let mCurrCellRows = 0;
+                                //set obj..
+                                let mSetObj = (mP = {}) => {
+                                    let mNewObj = {
+                                        //Note: Beware with keys like => 0,1,2 [it will auto change postition]
+                                        //All keys must be in Sequence.. 
+                                        "recipe_name": { v: "-", s: {}, },
+                                        "recipe_type": { v: "-", s: {}, },
+                                        "min_yield": { v: "-", s: {}, },
+                                        "max_yield": { v: "-", s: {}, },
+                                        "kri": { v: "-", s: {}, },
+                                        "serving_quantity": { v: "-", s: {}, },
+                                        "created_by": { v: "-", s: {}, },
+                                        "created_on": { v: "-", s: {}, },
+                                        "status": { v: "-", s: {}, },
+                                    };
+
+                                    //get fmt obj..
+                                    let mFmtObj = (a = {}, b = {}, k = "") => {
+                                        let mObjV = {};
+                                        for (let i = 0; i < Object.keys(a).length; i++) {
+                                            const e_k = Object.keys(a)[i];
+                                            const e_v = a[e_k];
+                                            //set (default)
+                                            mObjV[e_k] = e_v[k];
+                                            //set..(overwrite) 
+                                            if (b.hasOwnProperty(e_k) == true) {
+                                                if (b[e_k].hasOwnProperty(k) == true) {
+                                                    //store..
+                                                    mObjV[e_k] = b[e_k][k];
+                                                }
+                                            }
+                                        }
+                                        //all ok..
+                                        return mObjV;
+                                    };
+                                    //--mFmtObj--//
+                                    //console.log(mFmtObj(mNewObj, mP, "s"));
+
+                                    //store..
+                                    mNew.push(mFmtObj(mNewObj, mP, "v"));
+                                    /*//store..
+                                    mTotalCellRows+=1;
+                                    mCurrCellRows+=1;*/
+
+                                    //store..(Style)
+                                    mStyleCell.push(mFmtObj(mNewObj, mP, "s"));
+
+                                };
+
+
+                                //set header..
+                                let mSetHeader = () => {
+                                    console.log(`======mSetHeader========`);
+                                    let mS = {
+                                        alignment: {
+                                            vertical: "center"
+                                        },
+                                        fill: {
+                                            "fgColor": {
+                                                "rgb": "#002060" // mRndr["styles"]["mHead1"]["bg"]
+                                            },
+                                        },
+                                        //border: mStyle.border,
+                                        font: {
+                                            name: '',
+                                            //sz: 24,
+                                            bold: true,
+                                            color: {
+                                                rgb: "#ffffff" //mRndr["styles"]["mHead1"]["color"]
+                                            }
+                                        }
+                                    };
+
+
+                                    mSetObj({
+                                        "recipe_name": {
+                                            v: `Recipe Name`,
+                                            s: mS, //Style
+                                        },
+
+                                        "recipe_type": {
+                                            v: `Recipe Type`,
+                                            s: mS, //Style
+                                        },
+                                        "min_yield": {
+                                            v: `Min Yield`,
+                                            s: mS, //Style
+                                        },
+                                        "max_yield": {
+                                            v: `Max Yield`,
+                                            s: mS, //Style
+                                        },
+                                        "kri": {
+                                            v: `Price/Unit`,
+                                            s: mS, //Style
+                                        },
+                                        "serving_quantity": {
+                                            v: `Serving`,
+                                            s: mS, //Style
+                                        },
+                                        "created_by": {
+                                            v: `Created By`,
+                                            s: mS, //Style
+                                        },
+                                        "created_on": {
+                                            v: `Created On`,
+                                            s: mS, //Style
+                                        },
+                                        "status": {
+                                            v: `Status`,
+                                            s: mS, //Style
+                                        },
+
+                                    });
+
+                                };
+
+                                //set vars..
+                                let mRowOrigin = 0;
+                                if (mIsHead1_SET == false) {
+                                    mIsHead1_SET = true;
+                                    mSetHeader();
+                                    mRowOrigin += 1;
+                                }
+
+
+                                //gen..
+                                let mRowObj = () => {
+                                    let mNew = {};
+                                    for (let i1 = 0; i1 < mRndr["l"].length; i1++) {
+                                        const mCurr_I1 = mRndr["l"][i1];
+                                        //find and set..  
+                                        if (mData.hasOwnProperty(mCurr_I1["key"]) == true) {
+                                            //mCurr_I1.col(mData[mCurr_I1["key"]], mRow, i1);
+                                            //store..
+                                            //mNew[mCurr_I1["key"]] = mData[mCurr_I1["key"]]; //Use Json key name
+                                            //mNew[mCurr_I1["0"]] = mData[mCurr_I1["key"]]; //Use Table name
+                                            //set..                                                                   
+                                            if (mCurr_I1.hasOwnProperty("getVal") == true) {
+                                                let mVal = mCurr_I1["getVal"](
+                                                    mData[mCurr_I1["key"]],
+                                                    mData
+                                                );
+                                                //store..
+                                                mNew[mCurr_I1["key"]] = {
+                                                    "v": mVal, //Value
+                                                    "s": {}    //Style
+                                                }; //--OLD--  mNew[mCurr_I1["0"]]
+                                                //log..
+                                                //console.log(mVal);
+                                            }
+
+                                        }
+                                    }
+                                    //all ok..
+                                    //store..
+                                    /*console.log(`=====mNew=======`);
+                                    console.log(mNew);*/
+                                    mSetObj(mNew);
+                                };
+                                mRowObj();
+
+                                //return..
+                                return mNew;
+
+                            }
+                            //mNew.push(mGetObj(e1));
+                            let mGetRow_RES = mGetRow(e1);
+                            if (Object.keys(mGetRow_RES).length > 0) {
+                                mNew.push(...mGetRow_RES);
+                            }
+
+                        }
+                    }
+                    return mNew;
+                };
+                let mRow = mFmt1(mPagi_dta.data.l);
+                console.log(mRow);
+                //return;
+
+                //--Vali--//
+                if (mRow.length == 0) {
+                    console.log(`err: no. rows found`);
+                    return;
+                }
+
+                //mStyleCell
+                /*console.log(`=====mStyleCell=====`);
+                console.log(mStyleCell);
+                return;*/
+
+                //export..
+                core_kms.fileExport.set({
+                    "json": {
+                        "rows": {
+                            "l": mRow, //[]
+                        },
+                        "style": {
+                            "l": mStyleCell //[]
+                        }
+                    },
+                    "out": {
+                        "filename": "recipe.xlsx",
+                    }
+                });
+
+
+            };
+            //mSample_ExcelSheelGen(mSamplesDiv);
+
+
+            //--Sample Svg Loader--//
+            let mSample_SvgLoader = (mRootE = document.body) => {
+                //set
+                core_1mn['mSvg'].set({
+                    "0": "sample1.svg",  //svg file name --OR-- <svg></svg>
+                    //"1": "YOUR_UNIQUE_ID",
+                    "2": "12vh",
+                    "3": "12vh",
+                    "4": "rgba(34,34,34, 1.0)", //"" => no-color --OR-- undefined => "auto-color-applied" --OR-- "rgba(my color)"
+                    "5": mRootE,
+                    //you can set and (reload) FIELD by (assigning) this func..
+                    //"reload": () => {},
+
+                    "cb": {
+                        "onLoad": (mCurrItem) => {
+                            //use (svg)
+                            alert("onLoad");
+                        },
+                        "onInit": (mCurrItem) => {
+                            //This will trigger immediately..
+                        },
+                        "onError": () => {
+                            alert("onError");
+                        },
+                        "onClick": (mCurrItem) => {
+                            alert("onClick");
+                        }
+                    }
+                });
+            };
+
+
+
+            //----Sample Grid Cards 1----//
+            let mSample_gridCards1 = (mRootE = document.body) => {
+                //mScreen...
+                // var mScreen = document.createElement("div");
+                // mScreen.style.border = "thin solid black";
+                // mScreen.style.display = "flex";
+                // mScreen.style.alignContent = "center";
+                // mScreen.style.justifyContent = "center";
+                // mScreen.style.flexDirection = "column"
+                // mRootE.appendChild(mScreen)
+
+                //mHeader...
+                // var mHeader = document.createElement("div");
+                // mHeader.style.width = '100%'; // Set the width to 100%
+                // mHeader.style.height = '5vh'; // Set a small height, e.g., 50px
+                // mHeader.style.backgroundColor = '#003595';
+
+                // var headerText = document.createElement("p");
+                // headerText.textContent = "Central Control Panel";
+                // headerText.style.fontFamily = "Gill Sans, sans-serif"
+                // headerText.style.fontSize = "4vh"
+                // headerText.style.color = "white"; // Set the text color to white
+                // headerText.style.margin = "0"; // Remove default margin
+                // mHeader.appendChild(headerText);
+                //mContent.....
+                var mContent = document.createElement("div");
+                mContent.style = `width: 66vw; height: 100%; 
+                          padding: 0 1.5vw;`;
+                // mScreen.appendChild(mHeader)
+
+                mRootE.appendChild(mContent);
+
+                //set..
+                function mSet_l() {
+
+                    function mSet_i1(mE) {
+                        //rndr.. (table)
+                        let mRndr = {
+                            "utils": {
+                                "txt1": (txt) => {
+                                    var mTxt = document.createElement("div");
+                                    //mTxt.style.border = "1px solid red";
+                                    mTxt.style.fontSize = "2vh";
+                                    // mTxt.style.display = "flex"
+                                    // mTxt.style.alignContent = "center";
+                                    // mTxt.style.justifyContent = "center";
+                                    mTxt.style.fontFamily = "Gill Sans, sans-serif"
+                                    mTxt.style.color = "rgba(34,34,34, 1)";
+                                    mTxt.style.alignItems = "center"
+                                    mTxt.innerHTML = txt;
+                                    return mTxt;
+                                },
+                                "card1": (mE, mCurr_I1) => {
+                                    //set..
+                                    let mCard = document.createElement("div");
+                                    mCard.style.width = "30vh";
+                                    mCard.style.height = "20vh";
+                                    mCard.style.display = "flex";
+                                    mCard.style.justifyContent = "center";
+                                    //mCard.style.border = "1px solid red";
+                                    mCard.style.backgroundColor = "#DCDCDC";
+                                    mCard.style.cursor = "pointer"
+                                    mCard.style.alignItems = "center"
+                                    //mCard.style.border = "1px solid red"; 
+                                    mCard.style.borderRadius = "5%";
+
+                                    let mCov = document.createElement("div");
+                                    mCard.appendChild(mCov);
+                                    //mSvg..
+                                    function mSetSVG(mE) {
+                                        let mCov = document.createElement("div");
+                                        mCov.style.width = "100%";
+                                        mCov.style.display = "flex";
+                                        mCov.style.justifyContent = "center";
+                                        mE.appendChild(mCov);
+                                        core_1mn['mSvg'].set({
+                                            "0": mCurr_I1["ico1"],  //svg file name --OR-- <svg></svg>
+                                            //"1": "YOUR_UNIQUE_ID",
+                                            "2": "7vh",
+                                            "3": "7vh",
+                                            "4": "rgba(34,34,34, 1.0)", //"" => no-color --OR-- undefined => "auto-color-applied" --OR-- "rgba(my color)"
+                                            "5": mCov,
+                                            //you can set and (reload) FIELD by (assigning) this func..
+                                            //"reload": () => {},
+
+                                            "cb": {
+                                            }
+                                        });
+                                    }
+
+                                    mSetSVG(mCov)
+
+                                    //mTxt..
+                                    let mTxt = mRndr["utils"].txt1(mCurr_I1["txt1"]);
+
+
+                                    //set..
+                                    mCov.appendChild(mTxt);
+                                    //append..
+                                    mE.appendChild(mCard);
+                                    return mCard;
+                                },
+                            },
+
+                        };
+
+                        //table..
+                        function mSet_table1(mE) {
+                            var mTbl = document.createElement("div");
+                            mTbl.style.width = "100%";
+                            mE.appendChild(mTbl);
+
+
+                            //mTbl_div..
+                            var mTbl_div = document.createElement("div");
+                            mTbl_div.style.backgroundColor = "white";
+                            mTbl_div.style.overflowY = "auto";
+                            mTbl_div.style.overflowX = "auto";
+                            //mTbl_div.style.width = "100%"
+                            mTbl_div.style.height = "85vh";  //90vh
+                            mTbl.appendChild(mTbl_div);
+
+
+
+                            //grid cov..
+                            let mGrid_cov = document.createElement("div");
+                            mGrid_cov.style.display = "flex";
+                            mGrid_cov.style.flexWrap = "wrap";
+                            mGrid_cov.style.width = "100%";
+                            mGrid_cov.style.height = "100%"
+                            mGrid_cov.style.backgroundColor = "white";
+                            mTbl_div.appendChild(mGrid_cov);
+
+
+
+                            //item.. 
+                            function mAddItem(mCurr_I1) {
+                                var mItem = document.createElement("div");
+                                mItem.id = core_1mn['mUniqueId'].mGenerate(11);
+                                mItem.style.margin = "1.0vh 1.0vh";
+                                mGrid_cov.appendChild(mItem);
+                                //add card..
+                                mRndr["utils"].card1(mItem, mCurr_I1);
+                            }
+
+
+
+                            //get data and set..
+                            let mGetDataAndSet = () => {
+                                //mPayload..
+                                let mPayload = [
+                                    {
+                                        "txt1": "Organizational Settings",
+                                        "ico1": "workflow.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Store Settings",
+                                        "ico1": "basket.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Recipe Settings",
+                                        "ico1": "recipe.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Menu Settings",
+                                        "ico1": "menu.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Coupon Settings",
+                                        "ico1": "coupon.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Requisition Settings",
+                                        "ico1": "receivehand.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Procurement Settings",
+                                        "ico1": "care.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Purchase Settings",
+                                        "ico1": "bag.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Meal Settings",
+                                        "ico1": "meal.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Finance Settings",
+                                        "ico1": "budget.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Access Settings",
+                                        "ico1": "access.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Calendar Settings",
+                                        "ico1": "calendar.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Organizational Settings",
+                                        "ico1": "networking.svg"
+
+                                    },
+
+                                    {
+                                        "txt1": "Organizational Settings",
+                                        "ico1": "analytics.svg"
+
+                                    },
+
+                                    {
+                                        "txt1": "Organizational Settings",
+                                        "ico1": "flowchart.svg"
+
+                                    },
+
+
+
+                                ];
+                                //set..
+                                let data = mPayload;
+                                //gen..
+                                for (let i1 = 0; i1 < data.length; i1++) {
+                                    const mCurr_I1 = data[i1];
+                                    mAddItem(mCurr_I1);
+                                }
+
+                            }
+                            mGetDataAndSet();
+
+
+
+                        }
+                        mSet_table1(mE);
+
+
+
+                    }
+                    mSet_i1(mContent);
+
+
+
+
+                }
+                mSet_l();
+
+
+            }
+
+
+
+            //----DOM refrences----//
+            let mSet_DOM_ref = (mRootE = document.body) => {
+                let mDiv = document.createElement("div");
+                mDiv.style.margin = "10vh";
+                mRootE.appendChild(mDiv);
+
+                //set..
+                let mLinks = [
+                    {
+                        "0": `W3(W3 Schools) <label style="color:green; font-weight:bold;"> [For Styling] </label> `,
+                        "1": "https://www.w3schools.com/jsref/dom_obj_style.asp"
+                    },
+                    {
+                        "0": `Mozilla(MDN)  <label style="color:green; font-weight:bold;"> [For Styling] </label> `,
+                        "1": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style"
+                    }
+                ];
+                //gen..
+                let a = mLinks;
+                for (let i = 0; i < a.length; i++) {
+                    const e = a[i];
+                    //set..
+                    let mBox = document.createElement("div");
+                    mDiv.appendChild(mBox);
+                    mBox.innerHTML = `
+            <a href="${e["1"]}"> ${e["0"]} </a>
+            `;
+                }
+
+            };
+
+
+
+
+
+        }
+
+        mTest();
+
+
+    };
+
+
+</script>
+
+
+<!--core_1mn-->
+<!--script onload=onLoad_core_1mn() src="js/core_1mn.js" ></script-->
+
+<script>
+    import("../../libs/core_1mn/config/config_mn.js").then(() => {
+        import("../../libs/core_1mn/core_1mn.js").then(() => {
+            import("./libs/core_kms/core_kms.js").then((v) => {
+                console.log(core_1mn);
+                console.log(config_mn);
+                console.log(core_kms);
+                //onload..
+                onLoad_core_1mn();
+                //alert("Init success..");
+            }).catch((e) => {
+                console.log(e);
+            });
+        }).catch((e) => {
+            console.log(e);
+        });
+    }).catch((e) => {
+        console.log(e);
+    });
+
+
+</script>
+
+
+</html>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen 1</title>
+
+
+</head>
+
+<body style="padding:0; margin:0; overflow: hidden; ">
+    <!--items will be fetched here-->
+    <!--Web-->
+    <!-----------OR-------------->
+    <!--Mobile-->
+
+</body>
+
+
+
+
+<!--javascript-->
+<script>
+
+    let onLoad_core_1mn = () => {
+
+        //test..
+        let mTest = () => {
+
+            //set btns..
+            let mSet_btns = (mE) => {
+                let mBtnsDiv = document.createElement("div");
+                mE.appendChild(mBtnsDiv);
+
+                //set..
+                let mSet_Btn = (txt = "") => {
+                    let mBtn = document.createElement("button");
+                    mBtn.style.margin = "0.5vh";
+                    mBtn.innerHTML = txt;
+                    mBtnsDiv.appendChild(mBtn);
+                    return mBtn;
+                };
+
+
+
+                mSet_Btn("Screen1").onclick = () => {
+                    mSamplesDiv.innerHTML = ""; //reset..
+                    mSample_gridCards1(mSamplesDiv);
+                };
+
+            };
+            mSet_btns(document.body);
+
+
+
+
+            //----------Samples Starts Here----------//
+            let mSamplesDiv = document.createElement("div");
+            document.body.appendChild(mSamplesDiv);
+            
+
+
+            //----Sample Grid Cards 1----//
+            let mSample_gridCards1 = (mRootE = document.body) => {
+                //mScreen...
+                // var mScreen = document.createElement("div");
+                // mScreen.style.border = "thin solid black";
+                // mScreen.style.display = "flex";
+                // mScreen.style.alignContent = "center";
+                // mScreen.style.justifyContent = "center";
+                // mScreen.style.flexDirection = "column"
+                // mRootE.appendChild(mScreen)
+
+                //mHeader...
+                // var mHeader = document.createElement("div");
+                // mHeader.style.width = '100%'; // Set the width to 100%
+                // mHeader.style.height = '5vh'; // Set a small height, e.g., 50px
+                // mHeader.style.backgroundColor = '#003595';
+
+                // var headerText = document.createElement("p");
+                // headerText.textContent = "Central Control Panel";
+                // headerText.style.fontFamily = "Gill Sans, sans-serif"
+                // headerText.style.fontSize = "4vh"
+                // headerText.style.color = "white"; // Set the text color to white
+                // headerText.style.margin = "0"; // Remove default margin
+                // mHeader.appendChild(headerText);
+                //mContent.....
+                var mContent = document.createElement("div");
+                mContent.style = `width: 66vw; height: 100%; 
+                          padding: 0 1.5vw;`;
+                // mScreen.appendChild(mHeader)
+
+                mRootE.appendChild(mContent);
+
+                //set..
+                function mSet_l() {
+
+                    function mSet_i1(mE) {
+                        //rndr.. (table)
+                        let mRndr = {
+                            "utils": {
+                                "txt1": (txt) => {
+                                    var mTxt = document.createElement("div");
+                                    //mTxt.style.border = "1px solid red";
+                                    mTxt.style.fontSize = "2vh";
+                                    // mTxt.style.display = "flex"
+                                    // mTxt.style.alignContent = "center";
+                                    // mTxt.style.justifyContent = "center";
+                                    mTxt.style.fontFamily = "Gill Sans, sans-serif"
+                                    mTxt.style.color = "rgba(34,34,34, 1)";
+                                    mTxt.style.alignItems = "center"
+                                    mTxt.innerHTML = txt;
+                                    return mTxt;
+                                },
+                                "card1": (mE, mCurr_I1) => {
+                                    //set..
+                                    let mCard = document.createElement("div");
+                                    mCard.style.width = "30vh";
+                                    mCard.style.height = "20vh";
+                                    mCard.style.display = "flex";
+                                    mCard.style.justifyContent = "center";
+                                    //mCard.style.border = "1px solid red";
+                                    mCard.style.backgroundColor = "#DCDCDC";
+                                    mCard.style.cursor = "pointer"
+                                    mCard.style.alignItems = "center"
+                                    //mCard.style.border = "1px solid red"; 
+                                    mCard.style.borderRadius = "5%";
+
+                                    let mCov = document.createElement("div");
+                                    mCard.appendChild(mCov);
+                                    //mSvg..
+                                    function mSetSVG(mE) {
+                                        let mCov = document.createElement("div");
+                                        mCov.style.width = "100%";
+                                        mCov.style.display = "flex";
+                                        mCov.style.justifyContent = "center";
+                                        mE.appendChild(mCov);
+                                        core_1mn['mSvg'].set({
+                                            "0": mCurr_I1["ico1"],  //svg file name --OR-- <svg></svg>
+                                            //"1": "YOUR_UNIQUE_ID",
+                                            "2": "7vh",
+                                            "3": "7vh",
+                                            "4": "rgba(34,34,34, 1.0)", //"" => no-color --OR-- undefined => "auto-color-applied" --OR-- "rgba(my color)"
+                                            "5": mCov,
+                                            //you can set and (reload) FIELD by (assigning) this func..
+                                            //"reload": () => {},
+
+                                            "cb": {
+                                            }
+                                        });
+                                    }
+
+                                    mSetSVG(mCov)
+
+                                    //mTxt..
+                                    let mTxt = mRndr["utils"].txt1(mCurr_I1["txt1"]);
+
+
+                                    //set..
+                                    mCov.appendChild(mTxt);
+                                    //append..
+                                    mE.appendChild(mCard);
+                                    return mCard;
+                                },
+                            },
+
+                        };
+
+                        //table..
+                        function mSet_table1(mE) {
+                            var mTbl = document.createElement("div");
+                            mTbl.style.width = "100%";
+                            mE.appendChild(mTbl);
+
+
+                            //mTbl_div..
+                            var mTbl_div = document.createElement("div");
+                            mTbl_div.style.backgroundColor = "white";
+                            mTbl_div.style.overflowY = "auto";
+                            mTbl_div.style.overflowX = "auto";
+                            //mTbl_div.style.width = "100%"
+                            mTbl_div.style.height = "85vh";  //90vh
+                            mTbl.appendChild(mTbl_div);
+
+
+
+                            //grid cov..
+                            let mGrid_cov = document.createElement("div");
+                            mGrid_cov.style.display = "flex";
+                            mGrid_cov.style.flexWrap = "wrap";
+                            mGrid_cov.style.width = "100%";
+                            mGrid_cov.style.height = "100%"
+                            mGrid_cov.style.backgroundColor = "white";
+                            mTbl_div.appendChild(mGrid_cov);
+
+
+
+                            //item.. 
+                            function mAddItem(mCurr_I1) {
+                                var mItem = document.createElement("div");
+                                mItem.id = core_1mn['mUniqueId'].mGenerate(11);
+                                mItem.style.margin = "1.0vh 1.0vh";
+                                mGrid_cov.appendChild(mItem);
+                                //add card..
+                                mRndr["utils"].card1(mItem, mCurr_I1);
+                            }
+
+
+
+                            //get data and set..
+                            let mGetDataAndSet = () => {
+                                //mPayload..
+                                let mPayload = [
+                                    {
+                                        "txt1": "Organizational Settings",
+                                        "ico1": "workflow.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Store Settings",
+                                        "ico1": "basket.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Recipe Settings",
+                                        "ico1": "recipe.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Menu Settings",
+                                        "ico1": "menu.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Coupon Settings",
+                                        "ico1": "coupon.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Requisition Settings",
+                                        "ico1": "receivehand.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Procurement Settings",
+                                        "ico1": "care.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Purchase Settings",
+                                        "ico1": "bag.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Meal Settings",
+                                        "ico1": "meal.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Finance Settings",
+                                        "ico1": "budget.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Access Settings",
+                                        "ico1": "access.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Calendar Settings",
+                                        "ico1": "calendar.svg"
+
+                                    },
+                                    {
+                                        "txt1": "Organizational Settings",
+                                        "ico1": "networking.svg"
+
+                                    },
+
+                                    {
+                                        "txt1": "Organizational Settings",
+                                        "ico1": "analytics.svg"
+
+                                    },
+
+                                    {
+                                        "txt1": "Organizational Settings",
+                                        "ico1": "flowchart.svg"
+
+                                    },
+
+
+
+                                ];
+                                //set..
+                                let data = mPayload;
+                                //gen..
+                                for (let i1 = 0; i1 < data.length; i1++) {
+                                    const mCurr_I1 = data[i1];
+                                    mAddItem(mCurr_I1);
+                                }
+
+                            }
+                            mGetDataAndSet();
+
+
+
+                        }
+                        mSet_table1(mE);
+
+
+
+                    }
+                    mSet_i1(mContent);
+
+
+
+
+                }
+                mSet_l();
+
+
+            }
+
+
+        }
+
+        mTest();
+
+
+    };
+
+
+</script>
+
+
+<!--core_1mn-->
+<!--script onload=onLoad_core_1mn() src="js/core_1mn.js" ></script-->
+
+<script>
+    import("../../libs/core_1mn/config/config_mn.js").then(() => {
+        import("../../libs/core_1mn/core_1mn.js").then(() => {
+            import("./libs/core_kms/core_kms.js").then((v) => {
+                console.log(core_1mn);
+                console.log(config_mn);
+                console.log(core_kms);
+                //onload..
+                onLoad_core_1mn();
+                //alert("Init success..");
+            }).catch((e) => {
+                console.log(e);
+            });
+        }).catch((e) => {
+            console.log(e);
+        });
+    }).catch((e) => {
+        console.log(e);
+    });
+
+
+</script>
+
+
+</html>
